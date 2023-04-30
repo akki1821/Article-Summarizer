@@ -1,0 +1,28 @@
+
+{
+  "manifest_version": 3,
+  "name": "Article Summarizer",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/file.png",
+    "32": "icons/file.png",
+    "48": "icons/file.png",
+    "128": "icons/file.png"
+  },
+  "description": "Summarizes articles with a click of a button",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications"
+  ],  
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_title": "Summarize Article",
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,16 @@
+body {
+    width: 400px;
+    height: 300px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  
